@@ -430,7 +430,7 @@ else if(e.key==="ArrowDown" && search.value!="" && aRR!=""){
 else if(e.key==="Enter" && search.value!=""){
    
          localStorage.setItem("searchValue" ,search.value);
-   window.location.href="../search result page/search page.html";
+   window.location.href="./search page.html";
 
             }
 else{
@@ -453,7 +453,7 @@ search.addEventListener("keyup",itachi);
 //   console.log(e.key);
 //   if( e.key=="Enter" && input !=""){
 //        localStorage.setItem("searchValue" ,input);
-//    window.location.href="../search result page/search page.html";
+//    window.location.href="./search page.html";
 
 //   }
 // });
@@ -467,7 +467,7 @@ alert("search box is empty");
   }
   else{
    localStorage.setItem("searchValue" ,input);
-   window.location.href="./search result page/search page.html";
+   window.location.href="./search page.html";
   }
 
 })
@@ -891,7 +891,7 @@ videos_player.forEach((e ,index)=>{
     localStorage.setItem("videos_ID", videos_ID);   
 
   //REDIRECT TO VIDEOS PLAYER PAGE 
-    window.location.href=`./videos player page/video player index.html`;
+    window.location.href=`./video player index.html`;
   })})
 }
 
