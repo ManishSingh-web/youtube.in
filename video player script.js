@@ -755,8 +755,8 @@ function redirectvideo(){
                                           ( a.items[i].replies.comments[j].snippet.likeCount)? likevalue=a.items[i].replies.comments[j].snippet.likeCount:likevalue="1";
                                            p3.innerHTML = NUMBER_convertor(likevalue);
                                           // p3.innerHTML =a.items[i].replies.comments[j].snippet.likeCount;
-                                          img2.src = '../ICONS/like.png';
-                                          img3.src = '../ICONS/dislike.png';
+                                          img2.src = './like.png';
+                                          img3.src = './dislike.png';
                                           
                                        
                                           }
@@ -1013,8 +1013,8 @@ function play_video(a){
                                            (a.items[i].replies.comments[j].snippet.likeCount)?likevalue=a.items[i].replies.comments[j].snippet.likeCount:likevalue= "1";
                                            p3.innerHTML = NUMBER_convertor(likevalue);
                                           // p3.innerHTML =a.items[i].replies.comments[j].snippet.likeCount;
-                                          img2.src = '../ICONS/like.png';
-                                          img3.src = '../ICONS/dislike.png';
+                                          img2.src = './like.png';
+                                          img3.src = './dislike.png';
                                           
                                        
                                           }
