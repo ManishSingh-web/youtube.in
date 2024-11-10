@@ -1446,12 +1446,16 @@ float: left;
   flex-wrap: wrap;
   column-gap: 0px;
 }
-
-  }
-
-  .cmt_time{
+.cmt_time{
     font-size: small;
   }
+
+.container_flexBox .thumbnail_box img {
+border-radius: 0px;
+}
+
+  }
+
 
 
 
