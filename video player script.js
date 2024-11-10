@@ -1526,7 +1526,7 @@ hit2();
   localStorage.setItem("active_category", active);
   localStorage.setItem("videoCategory", video);
   localStorage.setItem("Active_num",BARKHA);
-  window.location.href="http://127.0.0.1:5500/index.html";
+  window.location.href="./index.html";
   }
 
 function active_category(x){
@@ -1662,11 +1662,11 @@ else{
 //=========like btn=============
 like.addEventListener("click", function(){
   if( like_count==true){
-    like_img.src="../ICONS/icons8-facebook-like-50.png";
+    like_img.src="./icons8-facebook-like-50.png";
      like_count= false;
   }
   else{
-    like_img.src="../ICONS/icons8-like-50.png";
+    like_img.src="./icons8-like-50.png";
     like_count=true;
   }
 
@@ -1761,9 +1761,9 @@ comment.addEventListener("click", function(){
   div.appendChild(img);
   div.appendChild(div2);
 
-  img.src = "../ICONS/user.png";
-  img2.src = '../ICONS/like.png';
-  img3.src = '../ICONS/dislike.png';
+  img.src = "./user.png";
+  img2.src = './like.png';
+  img3.src = './dislike.png';
 
 
 
