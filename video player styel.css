@@ -421,7 +421,7 @@ transform: translate(-50%,-50%);
   #video_player #left_side  #subscribed_section   #title_video{
   
     font-family: ui-monospace;
-   font-weight: 600; 
+   font-weight: 500; 
     font-size: 24px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -1035,14 +1035,18 @@ cursor: pointer;
     font-size: 13px;
     font-weight: 600;
     /* font-weight: 600; */
+    padding-left: 2px;
   }
 
   .container_flexBox .videos_titleBox .sugested_channel_name{ 
-margin-bottom: 0;
+/* margin-bottom: 0; */
 color: rgb(136 133 129);
-margin-top: 5px;
-    height: 10px;
+/* margin-top: 5px; */
+    /* height: 10px; */
     font-size: 12px;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 2px;
   }
   .views_time{
     color: rgb(136 133 129);
@@ -1051,6 +1055,7 @@ margin-top: 5px;
   background-color: #f1f1f1;
     overflow: hidden;
     height: 15px;
+    padding-left: 2px;
   }
 
 
@@ -1384,7 +1389,9 @@ float: left;
 
   }
   /* =========================================================== */
-  @media (max-width: 370px) {
+  @media (max-width:370px) {
+
+  
     ::-webkit-scrollbar {
       width: 3px;
     }
@@ -1417,6 +1424,12 @@ float: left;
 
   @media (max-width: 400px){
 
+      .container-iframe{
+    
+ border-radius: 0px;
+
+    }
+
 .share_etc_btns {
   font-size: x-small;
 }
@@ -1426,6 +1439,7 @@ float: left;
 }
     .container_flexBox .videos_titleBox {
         width: 100%;
+        padding-bottom: 15px;
     }
 .container_flexBox {
   height: auto;
@@ -1433,6 +1447,10 @@ float: left;
   column-gap: 0px;
 }
 
+  }
+
+  .cmt_time{
+    font-size: small;
   }
 
 
@@ -1492,11 +1510,11 @@ float: left;
 }
 .user_cmnt {
   color: #494747fc;
-  font-size: 18px;
+  font-size: 15px;
 }
 .user_comment_div img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 #log_in_profile_id {
   width: 40px;
@@ -1504,15 +1522,46 @@ float: left;
 }
 
 .button1 img{
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
 }
 .button2 img{
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
 }
 .reply_div_with_like .reply {
   margin: 0;
+}
+
+.user_name{
+font-size: small;
+}
+.user_comment_div {
+    padding-top: 10px;
+}
+
+.replies_user_name{
+font-size: small;
+
+}
+.replies_user_time{
+  font-size: small;
+  color: #727271;;
+}
+.replies_button1 img{
+          width: 17px;
+        height: 17px;
+
+}
+
+.replies_button2 img{
+
+    width: 17px;
+        height: 17px;
+}
+
+#title_video{
+  font-size: 16px;
 }
 }
 
