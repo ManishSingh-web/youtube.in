@@ -57,7 +57,7 @@ let nav_bar = document.getElementById("nav");
 onload = setTimeout(() => {
 loader.style.animation="";
 loader.style.display="none";
-// container_sidebar.style.display="flex";
+container_sidebar.style.display="flex";
 nav_bar.style.display="flex";
 container_videos.style.display="flex";
 }, 1000);
