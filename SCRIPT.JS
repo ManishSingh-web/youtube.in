@@ -453,7 +453,7 @@ search.addEventListener("keyup",itachi);
 //   console.log(e.key);
 //   if( e.key=="Enter" && input !=""){
 //        localStorage.setItem("searchValue" ,input);
-//    window.location.href="../search result page/search page.html";
+//    window.location.href="./search page.html";
 
 //   }
 // });
