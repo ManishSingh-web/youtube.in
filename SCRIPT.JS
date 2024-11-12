@@ -57,6 +57,7 @@ let nav_bar = document.getElementById("nav");
 onload = setTimeout(() => {
 loader.style.animation="";
 loader.style.display="none";
+// container_sidebar.style.display="flex";
 nav_bar.style.display="flex";
 container_videos.style.display="flex";
 }, 1000);
@@ -452,7 +453,7 @@ search.addEventListener("keyup",itachi);
 //   console.log(e.key);
 //   if( e.key=="Enter" && input !=""){
 //        localStorage.setItem("searchValue" ,input);
-//    window.location.href="./search page.html";
+//    window.location.href="../search result page/search page.html";
 
 //   }
 // });
